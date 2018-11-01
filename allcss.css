@@ -1,0 +1,239 @@
+body{
+	margin: 0;
+	width: 100%;
+	height:100%;
+	font-family: Verdana;
+}
+
+.mynav{
+	width:100%;
+	float:left;
+	background-color: #000;
+	text-align: right;
+	
+}
+.mynav:hover{
+	background-color: #004d1a;
+}
+.mynav .icon {
+ display: none;
+}
+nav{
+	padding: 15px;
+}
+.mynav a{
+	text-decoration: none;
+	font-size: 15pt;
+	padding:10px;
+	color: #fff;
+	margin-right:10pt;
+}
+.mynav a:hover{
+	cursor:ponter;
+	background-color: #fff;
+	color:#000;
+}
+
+.mycontent{
+	float: left;
+	width: 100%;
+}
+.myheader{
+	float: left;
+	width: 100%;
+}
+.myheader header{
+	padding:20px;
+	background-image: url("back.png");
+	background-size: cover;
+	font-size: 35pt;
+	text-align: left
+	margin-left:2%;	
+	text-decoration: none;
+	color:#fff;
+	
+}
+
+.myimage{
+	margin-top: 1%;
+	float: left;
+	width: 37%;
+	border-right: 2px solid;
+}
+.myimage img{
+	width: 98%;
+	height: 500px;
+	margin-left: 1%;
+}
+.hist{
+	float: left;
+	margin-left: 1%;
+	width: 60%;
+}
+.hist p{
+	font-family: 'Merienda One', Helvetica, sans-serif;
+	font-size:14pt;
+	line-height: 2.0;
+
+}
+.footer{
+	float:left;
+	width:100%;
+	background-color:#000; 
+}
+.footer p{
+    text-align: center;
+    font-size: 13pt;
+    font-family:Verdana;
+    color:#fff;
+}
+.footer img{
+	width: 45px;
+	height:45px;
+	margin-left: 2%;
+	padding: 7px;
+
+}
+.footer img:hover{
+	transition: 1.0s;
+	transform: 1.2;
+
+}
+/*curricullum vitae styles*/
+.mycv h1{
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.mycv h2{
+	font-size:16pt;
+	background-color:#809fff;
+	padding: 13px;
+	font-family: monospace;
+}
+.mycv{
+	font-family: Arial;
+	font-size:13pt;
+}
+.work{
+  margin-left: 2%;
+}
+.mycv table tr td{
+	padding:10px;
+	text-align: left;
+}
+tr:hover {background-color: #f5f5f5;cursor: pointer;}
+.mycv ul li{
+	font-size:13pt;
+	list-style: square;
+	padding: 10px;
+}
+.reff{
+	float:left;
+	width: 33%;
+}
+.reff2{
+	float:left;
+	width: 33%;
+	border-right: 2px solid;
+	border-left: 2px solid;
+}
+.reff p{
+	margin-left: 15%;
+}
+.reff2 p{
+	margin-left: 15%;
+}
+
+@media(max-width: 600px) {
+
+.mynav a {display: none;}
+.mynav a.icon {
+float: right;
+display: block;
+}
+.mynav.responsive {position: relative;}
+.mynav.responsive a.icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+.mynav.responsive a {
+float: none;
+display: block;
+text-align: left;
+}
+nav{
+	padding: 8px;
+}
+.mynav a{	
+	font-size: 12pt;
+	padding:8px;
+}
+.myheader header{
+	padding:10px;
+	font-size: 17pt;
+	margin-left:0;	
+	
+}
+.myimage{
+	margin-top: 1%;
+	float: left;
+	width: 95%;
+	border:none;
+}
+.myimage img{
+	width: 98%;
+	height: 200px;
+	margin-left: 2%;
+}
+.hist{
+	margin-left: 2%;
+	width: 98%;
+}
+.hist p{
+	font-size:11pt;
+	line-height: 1.5;
+}
+.mycv h1{
+	text-align: left;
+	margin-top: 10px;
+}
+.mycv h2{
+	font-size:14pt;
+	padding: 10px;
+	text-align: center;
+	font-family: monospace;
+}
+.mycv{
+	font-family: Arial;
+	font-size:12pt;
+}
+.work{
+  margin-left: 2%;
+  line-height: 1.5;
+}
+ul li{
+	line-height: 1.5;
+}
+.mycv table tr td{
+	padding:5px;
+	text-align: left;
+}
+
+.reff,.reff2{
+	float:left;
+	width: 100%;
+	border:none;
+	
+}
+.reff p{
+	margin-left: 5%;
+}
+.reff2 p{
+	margin-left: 5%;
+}
+
+
+}
